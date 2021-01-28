@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>multi div of center</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        .big_div{
+        text-align: center;
+        margin: 0 auto;
+        padding: 0;
+        clear: both;
+        height: auto;
+        border: 1px solid red;
+    }
+    .small1{
+        width: 200px;
+        height: 200px;
+        line-height: 200px;
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+        
+        zoom: 1;
+        background: beige;
+    }
+    </style>
+</head>
+<body>
+    <div class="big_div">
+        <div class="small1">
+            Сdiv1
+        </div>
+        <div class="small1">
+            Сdiv2
+        </div>
+        <div class="small1">
+            Сdiv3
+        </div>
+        <div style="clear:both"></div>
+    </div>
+</body>
+</html>
